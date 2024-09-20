@@ -1,4 +1,4 @@
-import { Any } from "next-sanity";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 export interface simpleBlogCard {
     title: string;
