@@ -34,7 +34,7 @@ export default async function BlogArticle({params}: {params: {slug: string}}) {
             </h1>
             <Image src={urlFor(data.titleImage).url()} alt="Blog Image"width={800} height={800} priority className="rounded-lg object-cover mt-8 mx-auto border" />
 
-            <div className="mt-16 text-left">
+            <div className="mt-16 text-left mx-auto prose prose-violet prose-headings:text-2xl prose-lg dark:prose-invert">
                 <PortableText value={data.content}/>
             </div>
         </div>

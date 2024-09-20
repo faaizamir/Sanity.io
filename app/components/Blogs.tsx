@@ -53,7 +53,7 @@ export default async function Blogs() {
             height={500}
             className="rounded-t-lg object-cover h-[200px]"
           />
-          <CardContent className="mt-5">
+          <CardContent className="mt-5 flex flex-col">
             <h3 className="text-xl font-semibold leading-7 tracking-tighter">
               {blog.title}
             </h3>
