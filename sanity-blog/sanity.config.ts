@@ -5,9 +5,9 @@ import {schemaTypes} from './schemaTypes'
 
 export default defineConfig({
   name: 'default',
-  title: 'nextjs-blog',
+  title: 'sanity-blog',
 
-  projectId: 'f2t85h7e',
+  projectId: 'yjdo3ie7',
   dataset: 'production',
 
   plugins: [structureTool(), visionTool()],
